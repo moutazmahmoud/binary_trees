@@ -13,7 +13,8 @@
  * Description: Basic structure for a binary tree node, used for
  * binary trees, binary search trees, AVL trees, and max binary heaps.
  */
-struct binary_tree_s {
+struct binary_tree_s
+{
 int n;
 struct binary_tree_s *parent;
 struct binary_tree_s *left;
