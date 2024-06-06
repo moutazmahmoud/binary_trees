@@ -3,9 +3,17 @@
 
 #include <stdlib.h>
 
-/* Basic Binary Tree Structure */
-struct binary_tree_s
-{
+/**
+ * struct binary_tree_s - Basic Binary Tree Structure
+ * @n: Value of the node
+ * @parent: Pointer to the parent node
+ * @left: Pointer to the left child node
+ * @right: Pointer to the right child node
+ *
+ * Description: Basic structure for a binary tree node, used for
+ * binary trees, binary search trees, AVL trees, and max binary heaps.
+ */
+struct binary_tree_s {
 int n;
 struct binary_tree_s *parent;
 struct binary_tree_s *left;
